@@ -1,7 +1,7 @@
-# USC Marshall - Sports Analytics Data Hackathon
-## 2027 Inaugural Basketball Analytics Hackathon
+# 2027 Hackathon Flyer
+## USC Marshall Sports Analytics Data Hackathon
 
-![USC Marshall Basketball Analytics Conference Logo](../images/usc_nba_analytics_logo.jpg)
+![USC Marshall Sports Analytics Hackathon Flyer Logo](../images/usc_nba_analytics_logo_v3_var1.jpg)
 
 ---
 
