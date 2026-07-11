@@ -62,3 +62,25 @@
   * [ ] Catering & Hospitality Coordinator: `[To be populated]`
   * [ ] Outreach & Communications Lead: `[To be populated]`
   * [ ] Audio/Visual & Tech Support Specialist: `[To be populated]`
+
+---
+
+## 🏀 Round 2: Live Finals Evaluation Rubric (NBA Judges)
+* **Goal:** Assess the finalists' ability to defend their work under high-stakes questioning by active NBA executives.
+* **Judges:** Panel of 3 to 5 NBA analytics professionals.
+* **Format:** 15-minute presentation followed by 10 minutes of Q&A.
+
+### Scoring Criteria (50 Points Total)
+1. **Front-Office Value & Translation (20 Points):** Can this analysis be directly integrated into a scouting report or coaching meeting tomorrow? Does it translate complex math into actionable basketball concepts?
+2. **Technical Defense & Q&A Response (15 Points):** How well do the students defend their mathematical and empirical assumptions? Do they demonstrate deep ownership of model limitations?
+3. **Presentation Poise & Team Chemistry (15 Points):** Do all team members present in a polished, professional manner? Is the presentation balanced, and are transitions smooth?
+
+---
+
+## 🧼 Operations Anonymization Checklist
+To guarantee a 100% blind review in Round 1:
+- [ ] Remove university names, logos, or mascots from slide headers, footers, and title pages of the PDF submissions.
+- [ ] Strip all metadata (e.g., student names, email addresses, or school creation domains) from PDF properties.
+- [ ] Scan submitted GitHub repositories for student names, university references, or institutional emails in `README.md`, codebase comments, or commit history.
+- [ ] Assign a random 3-digit Numeric ID (e.g., Team 104, Team 207) to the files and repository references.
+- [ ] Maintain a secure master mapping key accessible only to the Operations & Logistics Chair.
