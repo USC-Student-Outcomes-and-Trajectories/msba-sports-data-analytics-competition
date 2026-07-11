@@ -42,7 +42,7 @@ The vertical roadmap below highlights candidate-facing phases, milestones, and a
                                    │
                                    ▼
   [ Dec 4, 2026 ] ──────────► 🚨 Roster Registration Deadline (DUE)
-                              └─ Roster lock (3-4 students, max 2 teams/school)
+                              └─ Roster lock (4-5 students, max 2 teams/school)
                                    │
                                    ▼
   [ Dec 11, 2026 ] ─────────► Case Prompt & Datasets Released 🚀

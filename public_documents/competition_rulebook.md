@@ -6,10 +6,10 @@ The **USC Marshall Basketball Analytics Competition** is designed to challenge s
 ---
 
 ## 👥 2. Roster Rules & Eligibility
-* **Student Status:** Open to active undergraduate and graduate students enrolled in accredited universities.
-* **Team Size:** Exactly **3 to 4 students** per team.
-* **School Cap:** To ensure a highly competitive and diverse pool, a **maximum of 2 teams** will be accepted per university.
-* **Roster Lock:** Roster changes are permitted until the registration deadline on **December 4, 2026 (11:59 PM PST)**. After this date, rosters are locked, and substitutions are only allowed under extreme extenuating circumstances approved by the committee.
+* **Student Status:** Open to active graduate students (MBA, MSBA, or related data science/quantitative programs) enrolled at invited universities.
+* **Team Size:** Exactly **4 to 5 students** per team.
+* **School Cap:** Invited universities are permitted to nominate a **maximum of 2 teams** to represent their school.
+* **Roster Lock:** Roster nominations are locked on **December 4, 2026 (11:59 PM PST)**. After this date, rosters are locked, and substitutions are only allowed under extreme extenuating circumstances approved by the committee.
 
 ---
 
