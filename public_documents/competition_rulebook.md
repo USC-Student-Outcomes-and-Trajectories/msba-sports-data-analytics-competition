@@ -1,4 +1,4 @@
-# Document 02: Official Competition Rulebook
+# Official Competition Rulebook
 
 ## 📜 1. Introduction & Objectives
 The **USC Marshall Basketball Analytics Competition** is designed to challenge students to apply cutting-edge data science, statistical modeling, and economic analysis to real-world basketball problems. Competitors will analyze proprietary and open-source data to generate insights valuable to NBA front-office executives.

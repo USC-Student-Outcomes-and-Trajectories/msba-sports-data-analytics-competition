@@ -15,12 +15,17 @@ Welcome to the official administration and planning workspace for the **USC Mars
 You can navigate the documentation using the clickable links below:
 
 * **[README.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/README.md):** Workspace index, sitemap, and master timeline visual.
-* **[01_spirit_and_timeline.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/docs/01_spirit_and_timeline.md):** 2027 Inaugural Basketball Analytics Conference overview including the first logo, dual timelines, and committee roles of responsibility.
-* **[02_competition_rulebook.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/docs/02_competition_rulebook.md):** Rules governing eligibility, team structure limits, slide limits, code repository standards, and submission deadlines.
-* **[03_data_scoping_and_case.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/docs/03_data_scoping_and_case.md):** Sourcing pipelines, security locks, and a benchmark case study on star player effectiveness (synergy and team-level impact).
-* **[04_evaluation_rubrics.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/docs/04_evaluation_rubrics.md):** Detailed point allocations for the preliminary faculty blind reviews and the live NBA finals presentation rounds.
-* **[05_operations_and_logistics.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/docs/05_operations_and_logistics.md):** Venue reservation details (Fertitta and Popovich Halls), A/V checklists, catering details, judge binder specs, and the event budget.
-* **[06_outreach_and_communications.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/docs/06_outreach_and_communications.md):** Target programs outreach list, student invitation letters, and judge onboarding scripts.
+
+### 🌐 Public Documents (Candidate-Facing)
+* **[spirit_and_timeline.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/public_documents/spirit_and_timeline.md):** 2027 Inaugural Basketball Analytics Conference overview, external timelines, and applicant due dates.
+* **[competition_rulebook.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/public_documents/competition_rulebook.md):** Participant eligibility rules, team structure caps, slide constraints, and GitHub repository reproducibility specifications.
+* **[case_prompt.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/public_documents/case_prompt.md):** The official competition analytics task: "When are Star Basketball Players Most Effective?" (Part A: teammate synergy, Part B: team-level impact) including data sourcing guidelines and the 100-point faculty evaluation rubric.
+
+### 🔒 Internal Documents (Committee-Only)
+* **[committee_structure_and_timeline.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/internal_documents/committee_structure_and_timeline.md):** Committee timeline responsibilities, Round 2 evaluation rubrics, anonymization checklists, and roster roles for the Executive Committee and the Local Event Planning Team.
+* **[data_scoping_and_pipeline.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/internal_documents/data_scoping_and_pipeline.md):** Data acquisition partnerships (NBA API, Sportradar, spatial tracking sample sets) and pipeline security locking timelines.
+* **[operations_and_logistics.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/internal_documents/operations_and_logistics.md):** Logistics handbook containing Fertitta and Popovich hall layouts, AV/streaming setups, catering sheets, judge binder checklists, and the official budget.
+* **[outreach_and_communications.md](file:///Users/milanmiric/Documents/Admin%20Work%20Documents/MSBA%20-%20Baseketball%20Case%20Competition/internal_documents/outreach_and_communications.md):** Target academic programs marketing lists, school invitation templates, and judge recruitment outreach scripts.
 
 ---
 

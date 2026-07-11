@@ -1,4 +1,4 @@
-# Document 05: Operations & Logistics Manual
+# Operations & Logistics Manual
 
 ## 🏛️ 1. Venue Booking & Layout
 The live final presentations will be hosted at the USC Marshall School of Business.

@@ -1,4 +1,4 @@
-# Document 06: Outreach & Communications Strategy
+# Outreach & Communications Strategy
 
 ## 🎯 1. Target Audience & Outreach List
 The Outreach & Judge Liaison committee drives the promotion of the competition to top-tier universities. To maintain academic and technical excellence, invitations are targeted at schools with elite Business Analytics, Data Science, and Sports Management programs.
