@@ -1,13 +1,18 @@
-# USC Marshall Basketball Analytics Competition 🏀
+# USC Marshall - Sports Analytics Data Hackathon 🏀
 
-We have created two premium brand logos for the competition. You can compare the original sideways silhouette (Version 1) with the new front-facing drive design (Version 2) below:
+We have created four premium brand logo variants for the hackathon. You can compare them below:
 
-| Logo Version 1: Sideways Drive (Jerry West Style) | Logo Version 2: Front-Facing Drive |
+| Logo Variant 1: Sideways Drive (With Shield) | Logo Variant 2: Front-Facing Drive (With Shield) |
 | :---: | :---: |
-| ![Logo V1](images/usc_nba_analytics_logo.jpg) | ![Logo V2](images/usc_nba_analytics_logo_v2.jpg) |
-| *Classic profile pose with grid analytics shield.* | *Dynamic front-facing drive pose with data charts.* |
+| ![Variant 1](images/usc_nba_analytics_logo.jpg) | ![Variant 2](images/usc_nba_analytics_logo_v2.jpg) |
+| *Jerry West style with background analytics shield.* | *Front-facing drive pose with data charts.* |
 
-Welcome to the official administration and planning workspace for the **USC Marshall Basketball Analytics Competition**. This workspace contains the documents, guidelines, timelines, and assets needed to plan, execute, and participate in this elite event.
+| Logo Variant 3: Sideways Drive (Shield-Free - Floating Graphs) | Logo Variant 4: Sideways Drive (Shield-Free - Circular Grid) |
+| :---: | :---: |
+| ![Variant 3](images/usc_nba_analytics_logo_v3_var1.jpg) | ![Variant 4](images/usc_nba_analytics_logo_v3_var2.jpg) |
+| *Clean silhouette with floating analytics nodes.* | *Profile silhouette with circular basketball stats wireframe.* |
+
+Welcome to the official administration and planning workspace for the **USC Marshall Sports Analytics Data Hackathon**. This workspace contains the documents, guidelines, timelines, and assets needed to plan, execute, and participate in this elite event.
 
 ---
 
