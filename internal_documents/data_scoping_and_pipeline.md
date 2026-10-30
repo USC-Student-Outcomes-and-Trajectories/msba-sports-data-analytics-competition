@@ -19,6 +19,6 @@ To challenge teams with realistic front-office scenarios, the Analytics & Case D
 ---
 
 ## 🚀 3. Data Distribution & Support
-* **Release Date:** **December 11, 2026**
+* **Release Date:** **January 9, 2027**
 * **Method:** Pushed to the official competition GitHub repository as raw CSVs / parquet files, with access links emailed to registered teams.
 * **Technical Support:** The committee will host a virtual "Tip-Off Webinar" on launch day to walk through the data schemas and host a Q&A session. No further data-related queries will be answered individually after this session.

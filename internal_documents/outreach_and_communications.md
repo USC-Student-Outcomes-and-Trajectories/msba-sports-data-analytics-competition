@@ -20,19 +20,25 @@ The Outreach & Judge Liaison committee drives the promotion of the competition t
 ## 📧 2. Invitation & Outreach Templates
 
 ### Template A: School Invitation Email
-**Subject:** Invitation: Inaugural USC Marshall Basketball Analytics Competition
+**Subject:** Invitation: Inaugural USC Marshall Basketball Analytics Competition (Virtual Broadcast)
 
 > Dear Director of Business Analytics / Sports Analytics Club President,
 > 
-> We are pleased to invite your institution to compete in the inaugural **USC Marshall Basketball Analytics Competition**, hosted at the University of Southern California in Los Angeles, CA.
+> We are pleased to invite your institution to compete in the inaugural **USC Marshall Basketball Analytics Competition**, hosted virtually by the University of Southern California on **Saturday, February 20, 2027 (9:00 AM – 11:00 AM EST)**.
 > 
-> This premier event bridges advanced data science with professional sports operations. Registered teams will tackle a complex, real-world basketball operations case, utilizing curated player tracking datasets. Finalists will present their solutions live before a panel of active NBA front-office executives on **February 12, 2027**, at USC.
+> This premier event bridges advanced data science with professional sports operations. Registered teams will tackle a complex, real-world basketball operations case using curated player tracking datasets. Finalists will present their solutions live before a panel of active NBA front-office executives during a globally live-streamed broadcast on Zoom and YouTube.
 > 
 > **Key Parameters:**
-> * **Team Size:** 3 to 4 students.
+> * **Team Size:** 4 to 5 graduate students.
 > * **University Limit:** Maximum 2 teams per school.
-> * **Prize Pool:** $9,000 in total cash prizes ($5,000 for 1st Place).
-> * **Roster Deadline:** December 4, 2026.
+> * **Recognition:** National Championship Distinction, Certificates of Excellence, and direct networking with NBA front-office leadership.
+> * **Campaign Announcement:** October 1, 2026.
+> * **Registration Portal Opens:** November 1, 2026.
+> * **Roster Deadline:** December 18, 2026.
+> * **Hackathon Release:** January 9, 2027.
+> * **Submission Deadline:** January 23, 2027.
+> * **Finalists Notified:** February 6, 2027.
+> * **Final Event Broadcast:** February 20, 2027 (9:00 AM – 11:00 AM EST).
 > 
 > Please review the attached Official Rulebook. The registration portal opens on **November 1, 2026**. If you plan to field teams, please designate a faculty advisor or student representative to coordinate.
 > 
@@ -44,20 +50,20 @@ The Outreach & Judge Liaison committee drives the promotion of the competition t
 ---
 
 ### Template B: NBA Executive Judge Invitation
-**Subject:** Invitation to Judge: USC Marshall Basketball Analytics Competition (Feb 12, 2027)
+**Subject:** Invitation to Judge: USC Marshall Basketball Analytics Competition (Virtual Live Broadcast - Feb 20, 2027)
 
 > Dear [Executive Name],
 > 
-> On behalf of the USC Marshall School of Business, we invite you to serve as a Final Round Judge for the inaugural **USC Marshall Basketball Analytics Competition** on Friday, **February 12, 2027** (the Friday of NBA All-Star Weekend).
+> On behalf of the USC Marshall School of Business, we invite you to serve as a Final Round Judge for the inaugural **USC Marshall Basketball Analytics Competition** on Saturday morning, **February 20, 2027 (9:00 AM – 11:00 AM EST / 6:00 AM – 8:00 AM PST)**.
 > 
-> Our competition challenges top-tier graduate and undergraduate data science students from schools like MIT, Wharton, Stanford, and USC to solve a proprietary basketball operations problem. In Round 1, our faculty will screen all submissions for technical reproducibility and model soundness, narrowing the field to 3–5 elite finalist teams.
+> Our competition challenges top-tier graduate data science students from schools like MIT, Wharton, Stanford, and USC to solve a proprietary basketball operations problem. In Round 1, our faculty will screen all submissions for technical reproducibility and model soundness, narrowing the field to 3–5 elite finalist teams.
 > 
 > As a Final Round Judge, your role would involve:
-> * Reviewing the finalist technical briefs pre-event.
-> * Evaluating 15-minute live presentations at USC Marshall on February 12.
+> * Reviewing the finalist technical briefs pre-event (distributed February 12, 2027).
+> * Evaluating 15-minute live presentations during our Zoom Webinar and YouTube livestream on February 20.
 > * Leading a 10-minute Q&A session with each team regarding their front-office application.
 > 
-> We would be honored to have your expertise shape the next generation of analytical talent. We cover all travel and lodging accommodations. 
+> This event is hosted virtually, allowing you to join conveniently from your home or office. We would be honored to have your expertise shape the next generation of analytical talent.
 > 
 > We look forward to hearing your thoughts.
 > 

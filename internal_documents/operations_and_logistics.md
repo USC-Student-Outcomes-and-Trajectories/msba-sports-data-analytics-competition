@@ -1,60 +1,62 @@
-# Operations & Logistics Manual
+# Operations & Digital Broadcast Manual
 
-## 🏛️ 1. Venue Booking & Layout
-The live final presentations will be hosted at the USC Marshall School of Business.
+## 💻 1. Virtual Event Infrastructure & Platform Setup
+The live final presentations will be hosted entirely online and broadcast globally on **Saturday, February 20, 2027, from 9:00 AM to 11:00 AM EST (6:00 AM – 8:00 AM PST)**.
 
-### Chosen Locations
-* **Main Presentation Stage:** **Fertitta Hall (JFF) - Lloyd Greif Lecture Hall**
-  * Capacity: 150+ seats.
-  * Setup: Tiered lecture hall with high-definition laser projectors, microphone arrays, and live-streaming capabilities.
-* **Team Prep & Breakout Rooms:** **Popovich Hall (JKP) - Study Rooms**
-  * 5 reserved breakout rooms for the finalist teams to rehearse and conduct final deck edits prior to their presentation slot.
-* **Judges' Lounge & Deliberation Room:** **Fertitta Hall (JFF) - Executive Conference Room**
-  * Private space for judges to review finalist packets, eat lunch, and deliberate final scoring.
-
----
-
-## 🎙️ 2. Audio/Visual (AV) Requirements
-* **Microphones:** 4 wireless lapel mics for presenters; 3 handheld wireless mics for judges' Q&A.
-* **Display:** Split-screen display projection (left screen: team deck slides; right screen: live video feed or code repo walkthrough if requested).
-* **Streaming:** Standard Zoom Webinar broadcast for virtual attendees (e.g., student spectators and scout representatives from other NBA teams).
-* **Recording:** High-definition video recording of all presentations to be shared post-event.
+### Platform Setup
+* **Primary Presentation Stage:** **USC Zoom Webinar**
+  * Dedicated stage for the 3–5 finalist teams, NBA judges, and faculty moderators.
+  * Auto-spotlighting active presenters with synchronized side-by-side slide screen sharing.
+* **Public Livestream:** **YouTube Live Stream**
+  * Real-time RTMP integration broadcasting the Zoom Webinar to student spectators, university faculties, NBA scouts, and analytics enthusiasts worldwide.
+  * Moderated live chat for public audience engagement and viewer Q&A.
+* **Judges' Deliberation Room:** **Private Zoom Breakout Room**
+  * Secure virtual deliberation room for NBA judges to review team submissions, discuss model metrics, and finalize scoring from 10:30 AM to 11:00 AM EST.
 
 ---
 
-## 🍽️ 3. Catering Plan
-* **Breakfast (8:30 AM):** Continental breakfast (coffee, tea, pastries, fruit) served in the Fertitta Hall lobby for judges, competitors, and organizing staff.
-* **Lunch (12:30 PM):** Catered boxed lunch (sandwiches, wraps, salads) for judges in the Deliberation Room.
-* **Post-Event Networking Reception (4:30 PM):** Hors d'oeuvres and beverages for all attendees, sponsors, and participants.
+## 🎙️ 2. Audio/Visual & Streaming Requirements
+* **Presenter Controls:** Finalist team members will be granted panelist status with 1080p camera feeds and dedicated audio channels.
+* **Digital Slide Progression:** Teams share slides directly or use a shared backup deck driven by the student technical coordinator.
+* **Stream Monitoring:** Broadcast coordinator monitors YouTube feed latency, audio balancing, and visual layouts.
+* **Cloud Archiving:** High-definition video recording of the entire live broadcast to be permanently published on the USC Marshall YouTube channel post-event.
 
 ---
 
-## 📂 4. NBA Judge Packets
-The Operations team must deliver physical and digital packets to the 3–5 NBA judges by **February 5, 2027**.
+## 📂 3. NBA Judge Digital Packets
+The Operations team must deliver secure digital packets to the 3–5 NBA judges by **February 12, 2027** (one week before the live finals).
 
 ### Packet Checklist
-* [ ] Printed Executive Summaries from each of the finalist teams (maximum 2 pages per team).
-* [ ] High-quality color prints of the final 15-slide presentation decks.
-* [ ] Scorecards containing the Round 2 grading rubric and notepad sections.
-* [ ] NDA / Consent forms for case study research publications.
-* [ ] Event brochure containing judge bios and team rosters.
+* [ ] Digital Executive Summaries from each finalist team (maximum 2 pages per team).
+* [ ] High-resolution PDFs of the locked 15-slide presentation decks.
+* [ ] Online interactive scorecards (Qualtrics / Google Forms) containing the Round 2 evaluation rubric.
+* [ ] Presenter background briefs and team rosters.
+* [ ] Secure Zoom panelist invitation links and technical orientation guide.
 
 ---
 
-## 💵 5. Budget Outline
-Approved by the USC Marshall Dean's Office on **September 20, 2026**.
+## 💵 4. Zero-Budget Operational Framework
+Operating under a **$0 budget model** for the USC side, all administrative, streaming, and judging operations leverage existing university digital infrastructure and open-source tooling.
 
-| Item Category | Description | Budget Allocation |
-| :--- | :--- | :--- |
-| **Venue Hire** | Fertitta Hall Lloyd Greif Lecture Hall & JKP rooms | $1,500.00 |
-| **AV Support** | USC ITS technician on-site for 8 hours + gear | $800.00 |
-| **Catering** | Breakfast, lunch box, and networking reception | $3,500.00 |
-| **Prize Pool** | 1st Place ($5k), 2nd Place ($3k), 3rd Place ($1k) | $9,000.00 |
-| **Judge Travel** | Flight reimbursements and hotel stays for out-of-town NBA staff | $2,500.00 |
-| **Printing/Marketing** | Judge booklets, badges, banners, and brochures | $700.00 |
-| **Miscellaneous** | Security deposit, cleaning fees, plaques, and trophies | $1,000.00 |
-| **TOTAL EXPENSES** | | **$19,000.00** |
+| Operational Component | Execution Strategy | Budget Cost |
+| :--- | :--- | :---: |
+| **Virtual Venue & Streaming** | Institutional USC Zoom Webinar & YouTube Live RTMP broadcast | $0.00 |
+| **Data Pipelines & Compute** | Open-source NBA API / Sportradar data feeds & GitHub Classroom | $0.00 |
+| **Catering & Venue Hire** | 100% Virtual format (no physical venue or catering needed) | $0.00 |
+| **Judge Travel & Lodging** | Virtual participation from home/office (no flights or hotels) | $0.00 |
+| **Marketing & Advertising** | Digital email outreach, LinkedIn/Twitter campaigns, and digital flyers | $0.00 |
+| **Prizes & Awards** | Digital Certificates of Distinction, Championship Plaques, and Global Recognition | $0.00 |
+| **TOTAL EXPENSES** | | **$0.00** |
 
-### Funding Sources
-* **USC Marshall MSBA Program:** $10,000.00 (Anchor sponsor)
-* **Corporate Analytics Sponsors:** $9,000.00
+---
+
+## 🕒 5. Event Day Broadcast Run of Show (February 20, 2027)
+
+| Time (EST) | Time (PST) | Segment | Description |
+| :---: | :---: | :--- | :--- |
+| **8:30 AM** | **5:30 AM** | Green Room Tech Check | Judges and finalist teams join Zoom for mic, camera, and slide checks. |
+| **9:00 AM** | **6:00 AM** | Welcome & Opening Remarks | USC Marshall MSBA Leadership & Academic Director welcome remarks. |
+| **9:10 AM** | **6:10 AM** | Finalist Presentations | Top 3–5 teams present (15 min presentation + 10 min NBA judge Q&A each). |
+| **10:25 AM** | **7:25 AM** | Judges' Deliberation | NBA judges move to private breakout room; livestream hosts student panel. |
+| **10:50 AM** | **7:50 AM** | Awards & Closing Ceremony | Judges announce winners; award digital certificates of distinction. |
+| **11:00 AM** | **8:00 AM** | Broadcast Concludes | Stream concludes; recording archived to YouTube. |

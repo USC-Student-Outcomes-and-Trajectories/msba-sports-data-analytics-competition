@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSBA Sports Data Analytics Competition - 2027 Flyer</title>
+  <style>
+    :root {
+      --usc-cardinal: #990000;
+      --usc-gold: #FFC72C;
+      --usc-dark-cardinal: #730000;
+      --usc-gold-light: #FFF4D4;
+      --text-main: #1A1A1A;
+      --text-muted: #555555;
+      --bg-light: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --border-color: #E2E8F0;
+      --accent-black: #111827;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text-main);
+      background-color: #EDF2F7;
+      line-height: 1.42;
+      padding: 24px 12px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .flyer-container {
+      width: 100%;
+      max-width: 860px;
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+    }
+
+    /* Top Accent Bar */
+    .top-bar {
+      height: 8px;
+      background: linear-gradient(90deg, var(--usc-cardinal) 0%, var(--usc-gold) 100%);
+    }
+
+    /* Header Section */
+    .header-section {
+      padding: 24px 34px 18px 34px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      border-bottom: 1px solid var(--border-color);
+      background: linear-gradient(180deg, #FFFFFF 0%, #FAFBFD 100%);
+    }
+
+    .header-text {
+      flex: 1;
+    }
+
+    .sub-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.1px;
+      text-transform: uppercase;
+      color: var(--usc-cardinal);
+      background: var(--usc-gold-light);
+      padding: 3px 10px;
+      border-radius: 16px;
+      margin-bottom: 8px;
+      border: 1px solid rgba(255, 199, 44, 0.4);
+    }
+
+    .main-title {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--usc-cardinal);
+      line-height: 1.15;
+      margin-bottom: 5px;
+      letter-spacing: -0.5px;
+    }
+
+    .organization-sub {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      line-height: 1.35;
+    }
+
+    .organization-sub span {
+      color: var(--usc-cardinal);
+      font-weight: 700;
+    }
+
+    .header-logo {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(153, 0, 0, 0.15);
+      border: 2px solid var(--usc-gold);
+    }
+
+    /* Content Body */
+    .body-content {
+      padding: 20px 34px;
+    }
+
+    /* Overview Box */
+    .overview-card {
+      background: #FDFBF7;
+      border-left: 4px solid var(--usc-cardinal);
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 16px;
+      font-size: 13.5px;
+      color: #2D3748;
+      line-height: 1.45;
+    }
+
+    .overview-card strong {
+      color: var(--usc-cardinal);
+    }
+
+    /* Key Metrics / Highlights 3-Grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .metric-box {
+      background: var(--bg-light);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+
+    .metric-label {
+      font-size: 10.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 3px;
+    }
+
+    .metric-value {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--usc-cardinal);
+      margin-bottom: 2px;
+    }
+
+    .metric-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* Two Columns Section */
+    .details-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .info-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+
+    .card-heading {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--accent-black);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 8px;
+      border-bottom: 2px solid var(--usc-gold);
+      padding-bottom: 4px;
+    }
+
+    .info-list {
+      list-style: none;
+      font-size: 12px;
+      color: #374151;
+    }
+
+    .info-list li {
+      margin-bottom: 7px;
+      position: relative;
+      padding-left: 14px;
+      line-height: 1.38;
+    }
+
+    .info-list li::before {
+      content: "•";
+      color: var(--usc-cardinal);
+      font-weight: bold;
+      font-size: 15px;
+      position: absolute;
+      left: 0;
+      top: -2px;
+    }
+
+    .badge-free {
+      background: #E6F4EA;
+      color: #137333;
+      font-weight: 700;
+      font-size: 10.5px;
+      padding: 2px 7px;
+      border-radius: 10px;
+      display: inline-block;
+      margin-left: 3px;
+    }
+
+    .portal-btn {
+      display: inline-block;
+      margin-top: 6px;
+      background: var(--usc-cardinal);
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+
+    .portal-btn:hover {
+      background: var(--usc-dark-cardinal);
+    }
+
+    /* Page-Wide Yellow Callout Box */
+    .pagewide-callout {
+      background: #FFFDF0;
+      border: 1px solid #F6E05E;
+      border-left: 4px solid var(--usc-gold);
+      border-radius: 8px;
+      padding: 10px 16px;
+      margin-bottom: 16px;
+      font-size: 12px;
+      color: #744210;
+      line-height: 1.42;
+    }
+
+    .pagewide-callout p {
+      margin-bottom: 4px;
+    }
+
+    .callout-student {
+      font-weight: 600;
+      color: #975A16;
+    }
+
+    /* Timeline Horizontal Flow */
+    .timeline-card {
+      background: #FAFAFA;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 14px;
+    }
+
+    .timeline-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--accent-black);
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .step-item {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 8px;
+      position: relative;
+    }
+
+    .step-item.highlight {
+      border-color: var(--usc-cardinal);
+      background: #FFFDFC;
+    }
+
+    .step-date {
+      font-size: 10px;
+      font-weight: 800;
+      color: var(--usc-cardinal);
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    .step-name {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #1F2937;
+      line-height: 1.2;
+      margin-bottom: 3px;
+    }
+
+    .step-desc {
+      font-size: 10px;
+      color: var(--text-muted);
+      line-height: 1.25;
+    }
+
+    /* Footer */
+    .flyer-footer {
+      background: linear-gradient(90deg, #1A1A1A 0%, #2A2A2A 100%);
+      color: #E2E8F0;
+      padding: 12px 34px;
+      font-size: 11px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-left strong {
+      color: var(--usc-gold);
+    }
+
+    .footer-right a {
+      color: var(--usc-gold);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @page {
+      size: letter portrait;
+      margin: 0;
+    }
+
+    @media print {
+      html, body {
+        padding: 0 !important;
+        margin: 0 !important;
+        background: #FFFFFF !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+      .flyer-container {
+        box-shadow: none !important;
+        border: none !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        border-radius: 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="flyer-container">
+    <div class="top-bar"></div>
+
+    <!-- Header -->
+    <div class="header-section">
+      <div class="header-text">
+        <div class="sub-badge">Official Invitation • Virtual Edition</div>
+        <h1 class="main-title">MSBA Sports Data Analytics Competition</h1>
+        <div class="organization-sub">
+          Organized by the <span>University of Southern California, Marshall School of Business</span><br>
+          Supported by the <span>MS in Business Analytics (MSBA) Program</span>
+        </div>
+      </div>
+      <img src="../images/usc_nba_analytics_logo.jpg" alt="MSBA Sports Data Analytics Competition Emblem" class="header-logo">
+    </div>
+
+    <!-- Body -->
+    <div class="body-content">
+      
+      <!-- Competition Overview -->
+      <div class="overview-card">
+        The <strong>USC Marshall School of Business</strong> is proud to host the inaugural <strong>2027 MSBA Sports Data Analytics Competition</strong>. Graduate student teams analyze NBA play-by-play data to develop a live, interactive analytics tool (single dashboard or visual) empowering coaches and executives to make real-time, actionable decisions during games.
+      </div>
+
+      <!-- Quick Metrics Grid -->
+      <div class="metrics-grid">
+        <div class="metric-box">
+          <div class="metric-label">Team Registration Deadline</div>
+          <div class="metric-value">Dec 18, 2026</div>
+          <div class="metric-sub">School & Roster Lock</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">Kickoff & Live Webinar</div>
+          <div class="metric-value">Jan 09, 2027</div>
+          <div class="metric-sub">Case & Dataset Release</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">Live Finals Broadcast</div>
+          <div class="metric-value">Feb 20, 2027</div>
+          <div class="metric-sub">9:00 – 11:00 AM EST (Zoom/YouTube)</div>
+        </div>
+      </div>
+
+      <!-- Two Column Details -->
+      <div class="details-row">
+        
+        <!-- Left Box: Eligibility & Application -->
+        <div class="info-card">
+          <div class="card-heading">
+            <span>👥 Eligibility & Application</span>
+          </div>
+          <ul class="info-list">
+            <li><strong>Who is Eligible to Apply:</strong> Students currently enrolled in graduate programs with a focus on <strong>business, entertainment, sports, and analytics</strong> (e.g., MSBA, MBA, Data Science, Quantitative MS/PhD).</li>
+            <li><strong>Team Structure:</strong> Teams of <strong>4 to 5 graduate students</strong> (each invited school may nominate up to 2 teams).</li>
+            <li><strong>Cost:</strong> <span class="badge-free">100% Free Participation</span></li>
+            <li>
+              <strong>School Application:</strong> Submit institutional interest via the link below:
+              <br>
+              <a href="https://xxx" class="portal-btn">Expression of Interest in Participation (Link: xxx) →</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right Box: Process & Deliverables -->
+        <div class="info-card">
+          <div class="card-heading">
+            <span>📂 Process & Deliverables</span>
+          </div>
+          <ul class="info-list">
+            <li><strong>Roster Collection & Launch:</strong> Organizers reach out to registered programs to request confirmed names of team members and share launch details in advance.</li>
+            <li><strong>Deliverables:</strong> A <strong>Live Interactive Dashboard</strong> (hosted demo link with situational filtering) and a <strong>GitHub Repository</strong> with code & documentation. <em>No static slide decks.</em></li>
+            <li><strong>Evaluation & AI:</strong> Evaluated on visual clarity, decision actionability, feasibility, and technical defense. AI tools are permitted and encouraged.</li>
+            <li><strong>Judging Panel:</strong> Direct live evaluation and Q&A with leading <strong>analytics professionals from the sports industry (NBA)</strong>.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Page-Wide Yellow Note Box -->
+      <div class="pagewide-callout">
+        <p><strong>2027 Event is Virtual.</strong> To ensure a viable scale for the event, we request schools to register their interest using the form above. Organizers will follow up with a registration link for schools to submit their rosters and confirm participation.</p>
+        <div class="callout-student">💡 <strong>Note for Students:</strong> Students should reach out to their institution (faculty or program directors) and have them register for the event.</div>
+      </div>
+
+      <!-- Timeline Strip -->
+      <div class="timeline-card">
+        <div class="timeline-title">
+          <span>📅 Competition Milestone Schedule</span>
+          <span style="font-size: 10.5px; color: var(--usc-cardinal); font-weight: 600;">Global Virtual Broadcast</span>
+        </div>
+        <div class="timeline-grid">
+          <div class="step-item">
+            <div class="step-date">Nov 01, 2026</div>
+            <div class="step-name">Registration Opens</div>
+            <div class="step-desc">Portals open for program lead applications.</div>
+          </div>
+          <div class="step-item">
+            <div class="step-date">Dec 18, 2026</div>
+            <div class="step-name">Roster Lock</div>
+            <div class="step-desc">Final deadline to submit 4–5 student rosters.</div>
+          </div>
+          <div class="step-item">
+            <div class="step-date">Jan 09 – 23, 2027</div>
+            <div class="step-name">Sprint Window</div>
+            <div class="step-desc">Data release to Live Tool demo & GitHub due date.</div>
+          </div>
+          <div class="step-item highlight">
+            <div class="step-date">Feb 20, 2027</div>
+            <div class="step-name">Live Finals Event</div>
+            <div class="step-desc">Broadcast live on Zoom Webinar & YouTube (9–11 AM EST).</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="flyer-footer">
+      <div class="footer-left">
+        <strong>USC Marshall School of Business</strong> • Master of Science in Business Analytics
+      </div>
+      <div class="footer-right">
+        Expression of Interest: <a href="https://xxx">https://xxx</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

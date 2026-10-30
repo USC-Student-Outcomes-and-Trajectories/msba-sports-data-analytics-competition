@@ -1,63 +1,80 @@
-# 2027 Inaugural Basketball Analytics Conference: Official Case Prompt
-## Case Topic: When are Star Basketball Players Most Effective?
+# MSBA Sports Data Analytics Competition: Official Case Prompt
+## In-Game Strategy & Real-Time Decision-Making for Coaches and Basketball Executives
 
 ---
 
-## 📖 1. Background
-The use of data and analytics within professional sports has grown considerably in the past several years. This allows for more data-driven and informed decision-making and allows sports professionals to challenge assumptions that have often been held by coaches and players. In that spirit, this case challenges teams to use play-by-play (NBA) basketball data to provide analytics on what makes certain players or teams successful.
+## 🏀 1. Philosophy & Executive Overview
 
-Sports provides a unique context where the client (your managers, front-office executives, the audience in your presentation) will often know more about the empirical context than you do. Therefore, you must be extremely careful and data-driven, ensuring that your assumptions, definitions, and arguments are mathematically sound and consistent with what your audience expects. 
+This competition prompt is deliberately **open-ended**. In the high-stakes environment of professional basketball analytics, success is rarely about finding a single "correct" formula or benchmark. Instead, it demands a **thoughtful, rigorous solution** that deeply analyzes operational realities, addresses genuine in-game constraints, and establishes a meaningful, strategically relevant decision framework.
 
-This assignment is unstructured; it is up to your team to define how you will perform the analysis and how you will define various metrics. Start from the goal you are trying to reach, and work backwards to provide a rigorous answer with the data provided.
+In this spirit, the primary deliverable is **not** a traditional slide deck, static PDF report, or academic paper. Modern coaches and front-office executives operate under intense time pressure; they cannot parse dense tables or navigate multi-page slide decks during live game action. 
 
----
-
-## 🏀 2. Case Prompt
-
-### Part A: How does the play of a star basketball player change depending on the teammates they are playing with?
-The composition of a basketball team is inherently fluid. Across seasons, teams add new players and try to form partnerships between teammates. 
-
-For example:
-* The Golden State Warriors adding Kevin Durant to play alongside Stephen Curry.
-* The Milwaukee Bucks adding Damian Lillard alongside Giannis Antetokounmpo.
-* Kyrie Irving and Klay Thompson joining Luka Dončić on the Dallas Mavericks.
-
-The addition of another "star" player to a team, or the movement of a "star" player between teams, represents a massive shift in the composition of a basketball team. 
-
-#### Tasks:
-* Focus your analysis on a player that is moving to a new team and how their play changes, **OR** on the team they are joining and how the existing star players adjusted their play to this new player.
-* You may focus on a single player or "star" players in general. You may demonstrate how play changed with different teammates, or choose in broad terms how several leading players change in response to the composition of their teams.
-* **Success Metric Definition:** You must define what constitutes success in this context. Decide which player performance metrics you are considering and which data frame you will look at. 
-  * *Exploratory Questions:* Are players taking different types of shots? Are they more efficient when shooting? Are they able to pass the ball more easily? Are the teams more able to rest star players because they have another star player they can play instead?
-
-### Part B: What is the impact of adding a "star" player to the performance of a team?
-The final result of a basketball game is a function of many factors. Yet, the addition of a star player may lead to a subtle increase in performance that can potentially lead to more victories. However, it is often not clear how much adding a new player increases the performance of a team, and specifically quantifying this increase is a key analytical challenge.
-
-#### Tasks:
-* Select either a focal team, or several teams that traded for star players.
-* Develop a way of quantifying the aggregate performance of the team and how/when the acquisition of the star player helped, and how/when it hurt the team.
-* **Success Metric Definition:** You have considerable flexibility regarding how you might define and measure what constitutes aggregate team performance.
-  * *Exploratory Questions:* You can look at performance metrics such as +/- (plus-minus) and compute how this metric improved. You can calculate how many points are scored by different players and whether this addition increases the performance of some players while limiting the performance of others.
+Instead, teams are challenged to design and deploy a **single live dashboard or interactive visualization** that an end-user can intuitively understand at a glance, providing immediate, actionable insights to guide live coaching and in-game tactical decisions.
 
 ---
 
-## 📂 3. Deliverables
-* **Submission Format:** A PDF presentation deck containing a maximum of 15 slides.
-* **Content:** Include approximately **2 to 3 summary slides** summarizing your approach to Part A and Part B.
-* **Visual Focus:** Do **not** show programming code (e.g., Python, R) on the slides. Instead, present high-quality visualizations, data plots, and clear figures summarizing your findings. 
-* **Technical Appendix:** You may include an appendix slide linking to your official GitHub repository containing the underlying code, model parameters, and details.
+## 🎯 2. The Official Prompt
+
+> **Create an analytics solution (live dashboard or graphic) that can help coaches or basketball executives make actionable decisions during a game.**
+
+Your solution must empower coaches, assistant coaches, and front-office analysts on the bench to make high-impact tactical interventions as game situations unfold.
+
+### Illustrative Strategic Questions
+Teams have complete freedom to choose their focal strategic problem. Example problems teams could solve include, but are not limited to:
+
+1. **Player Decision Quality in Real Time:**  
+   *How well are players making decisions at any given point in a game? Based on empirical data, what constitutes a high-quality versus a low-quality decision in that context?*
+2. **Dynamic Substitution & Fatigue Optimization:**  
+   *How "well" are the players currently on the court playing, and what is the optimal moment to substitute them out before their efficiency, defensive intensity, or shooting performance experiences a sharp decline?*
+3. **Foul Risk & Lineup Vulnerability:**  
+   *How at-risk are active players of committing a foul given the current in-game situation (e.g., matchup, pace, referee tendencies, court location, quarter/time remaining), and how should that dictate substitution and rotation adjustments?*
+
+*Teams may explore any other impactful in-game decision problem, provided it directly translates data into coachable, real-time action.*
 
 ---
 
-## 📊 4. Data Sourcing
-Registered teams will be provided with play-by-play data from several NBA seasons. You can focus on a narrow sample of data and teams. The key is to select and clean the data that can be the most useful for your team's specific focus.
+## 🚀 3. Deliverables & Specifications
+
+Submissions must consist of two core components: a **Live Interactive Application** and a **Reproducible GitHub Repository**.
+
+### Deliverable A: Live Interactive Dashboard / Visual Tool
+* **Live & Interactive:** Must be hosted online and fully functional (e.g., Streamlit, Dash, Shiny, Vercel, Observable, Tableau Public, or custom web application) so that judges can actively interact with and stress-test the tool in real time.
+* **Intuitively Self-Explanatory:** The visualization must be understandable at a glance. Coaches and executives have seconds—not minutes—to interpret information. The design should minimize cognitive load and eliminate ambiguous jargon.
+* **Dynamic Scenario Filtering:** The tool must give judges the ability to pick a particular game, time, or in-game situation to dynamically contextualize and set the relevance of the underlying data.
+* **Single Dashboard / Visualization:** The interface should function as a unified, cohesive command center or single-view visual solution rather than a disparate collection of unrelated charts.
+
+### Deliverable B: Public GitHub Repository & Technical Documentation
+* **Source Code:** Clean, well-structured, and documented code (Python, R, JavaScript, etc.) demonstrating how the data was ingested, transformed, modeled, and visualized.
+* **Detailed README.md Documentation:**
+  * Direct URL link to the live demo application.
+  * Clear explanation of the business and coaching problem addressed.
+  * Mathematical, statistical, or machine learning methodology and data definitions.
+  * Local reproduction instructions and dependency configuration (`requirements.txt`, `environment.yml`, or `package.json`).
+  * Explicit disclosure of any AI assistance tools utilized and how they supported the project.
 
 ---
 
-## ⚖️ 5. Evaluation Rubrics
-Submissions will be evaluated by the Faculty Panel on a 100-point scale:
+## 📊 4. Data Scope & Integrity
 
-* **Reasonable Question (10%):** Have you selected and justified a logically sound, interesting research question?
-* **Empirical Approach (40%):** Do you have a plausible, mathematically sound approach to answer the question? (Includes data cleaning, metric selection, and model structure).
-* **Insights (40%):** Do you arrive at meaningful, informative, and basketball-relevant insights that could guide a front office?
-* **Style (10%):** Is your presentation clear, visual, well-explained, and free of clutter?
+* **Exclusivity of Provided Data:** Teams **must only use the data provided** for this competition. External scraping or blending with unauthorized third-party datasets is strictly disallowed to ensure fair, equal-footing evaluation across all participating institutions.
+* **Scope:** Teams are free to filter, aggregate, engineer features, and model subsets of the provided data (e.g., specific teams, quarters, player pairings, or game contexts) to maximize the precision and relevance of their live tool.
+
+---
+
+## ⚖️ 5. Evaluation Rubric
+
+Judges (comprising faculty and NBA analytics leaders) will evaluate submissions based on four core criteria:
+
+| Evaluation Dimension | Weight | Description |
+| :--- | :---: | :--- |
+| **Clarity of Visual** | **30%** | **Ease of interpretability and understanding.** Can an executive or coach understand the core takeaway within seconds? Is the design clean, intuitive, and visually disciplined? |
+| **Actionability** | **35%** | **Direct translation into an immediate decision.** Does the tool recommend or clearly enable a specific tactical adjustment (e.g., call a timeout, initiate a substitution, shift defensive coverage, alter shot selection)? |
+| **Feasibility** | **20%** | **Real-world operational viability.** Can this decision reasonably and realistically be executed in the heat of a live game situation under NBA rules and pacing? |
+| **Technical Rigor & Defense** | **15%** | **Code quality, documentation, and conceptual defense.** How well-engineered is the codebase? Can the team articulate, justify, and defend their analytical framework and assumptions? |
+
+---
+
+## 🤖 6. Artificial Intelligence (AI) Policy
+
+* **Allowed and Encouraged:** Teams are explicitly permitted and encouraged to leverage modern AI tools (including LLMs, code generation assistants, and design tools) to build, refine, and accelerate their solutions.
+* **Evaluation on Execution & Defense:** Teams will be evaluated strictly on the **quality of the tool created**, the **clarity and usability of the interface**, and their **ability to explain, justify, and defend** their design choices and analytical logic during Q&A with the judges. AI cannot replace sound strategic thinking and statistical reasoning.
